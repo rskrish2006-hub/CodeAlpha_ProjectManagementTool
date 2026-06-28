@@ -8,19 +8,19 @@ const Login = () => {
   const [email, setEmail] = useState("krishna@taskflow.com");
   const [password, setPassword] = useState("123456");
 
-  const handleLogin = (e) => {
-    e.preventDefault();
+ const handleLogin = (e) => {
+  e.preventDefault();
 
-    localStorage.setItem(
-      "taskflowUser",
-      JSON.stringify({
-        name: "Krishna Bhargava",
-        email,
-      })
-    );
-
-    window.location.href = "/dashboard";
+  const userData = {
+    name: "Krishna Bhargava",
+    email: email || "krishna@taskflow.com",
   };
+
+  localStorage.setItem("taskflowUser", JSON.stringify(userData));
+  sessionStorage.setItem("taskflowUser", JSON.stringify(userData));
+
+  window.location.replace("/dashboard");
+};
 
   return (
     <div className="auth-page">
