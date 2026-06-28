@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "1782578291867",
+      "name": "krishna ",
+      "email": "mani@gmail.com",
+      "password": "mani143"
+    },
+    {
+      "id": "1782578486971",
+      "name": "bhargav",
+      "email": "bhsrgac@gmail.com",
+      "password": "mani143"
+    }
+  ],
+  "projects": [],
+  "tasks": [
+    {
+      "id": "1782576767525",
+      "title": "yahsu",
+      "status": "Todo",
+      "priority": "Medium",
+      "date": "No date"
+    },
+    {
+      "id": "1782576844314",
+      "title": "ai career mentor",
+      "status": "Todo",
+      "priority": "Medium",
+      "date": "No date"
+    }
+  ]
+}

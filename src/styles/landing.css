@@ -1,0 +1,87 @@
+.landing {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #111827);
+  color: white;
+  padding: 28px;
+}
+
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-nav h2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #60a5fa;
+}
+
+.landing-nav button,
+.hero button {
+  background: #2563eb;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 14px;
+  border: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 110px 20px 80px;
+}
+
+.hero h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 760px;
+  margin: auto;
+  color: #cbd5e1;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.hero button {
+  margin-top: 32px;
+  font-size: 17px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.features div {
+  background: rgba(255,255,255,0.08);
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.features svg {
+  color: #60a5fa;
+  margin-bottom: 14px;
+}
+
+.features p {
+  color: #cbd5e1;
+  margin-top: 8px;
+}
+
+footer {
+  text-align: center;
+  color: #94a3b8;
+  margin-top: 80px;
+}
+
+@media(max-width:900px){
+  .hero h1{font-size:44px}
+  .features{grid-template-columns:1fr}
+}
