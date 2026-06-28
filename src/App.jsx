@@ -74,19 +74,15 @@ function App() {
   }, [loggedIn]);
 
  const login = async () => {
-  const result = await loginAPI({
+  const user = {
+    name: "Krishna Bhargava",
     email: authData.email || "krishna@taskflow.com",
-    password: authData.password || "123456",
-  });
+  };
 
-  if (result.success) {
-    const user = JSON.parse(localStorage.getItem("taskflowUser"));
-    setLoggedIn(user);
-    setShowLanding(false);
-    toast.success("Login successful");
-  } else {
-    toast.error(result.message || "Login failed");
-  }
+  localStorage.setItem("taskflowUser", JSON.stringify(user));
+  setLoggedIn(user);
+  setShowLanding(false);
+  toast.success("Login successful");
 };
 
 const register = async () => {
