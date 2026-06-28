@@ -19,7 +19,7 @@ const Login = () => {
       })
     );
 
-    navigate("/dashboard");
+    window.location.href = "/dashboard";
   };
 
   return (
@@ -86,4 +86,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login; 
