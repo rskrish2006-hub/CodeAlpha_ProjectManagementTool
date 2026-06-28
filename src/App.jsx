@@ -73,15 +73,16 @@ function App() {
     if (loggedIn) loadData();
   }, [loggedIn]);
 
-  const login = async () => {
+ const login = async () => {
   const result = await loginAPI({
-    email: authData.email,
-    password: authData.password,
+    email: authData.email || "krishna@taskflow.com",
+    password: authData.password || "123456",
   });
 
-  if (result.user) {
-    localStorage.setItem("taskflowUser", JSON.stringify(result.user));
-    setLoggedIn(true);
+  if (result.success) {
+    const user = JSON.parse(localStorage.getItem("taskflowUser"));
+    setLoggedIn(user);
+    setShowLanding(false);
     toast.success("Login successful");
   } else {
     toast.error(result.message || "Login failed");
