@@ -1,3 +1,4 @@
+<img width="1541" height="887" alt="Screenshot 2026-06-28 130421" src="https://github.com/user-attachments/assets/a0a46f4c-d3a8-466d-bb53-c4a29cae3601" />
 # 🚀 TaskFlow Pro – Project Management Dashboard
 
 A modern and responsive **Project Management Dashboard** built using **React, Vite, Node.js, and Express.js**. TaskFlow Pro helps teams organize projects, manage tasks through a Kanban board, visualize productivity, and improve workflow efficiency.
@@ -122,6 +123,9 @@ npm start
 
 <img width="1493" height="857" alt="Screenshot 2026-06-28 130426" src="https://github.com/user-attachments/assets/fb7543f4-4d35-4dd0-a3b9-cd2c0fd3357d" />
 
+<img width="1637" height="870" alt="Screenshot 2026-06-28 130405" src="https://github.com/user-attachments/assets/3fe55b2f-7fb6-444d-b7d6-10de228e69ce" />
+<img width="1718" height="906" alt="Screenshot 2026-06-28 130416" src="https://github.com/user-attachments/assets/925a9c15-6c86-404f-9935-a045b2455aa7" />
+<img width="1541" height="887" alt="Screenshot 2026-06-28 130421" src="https://github.com/user-attachments/assets/b152404b-6916-43e8-b72d-d762a6cd287a" />
 
 
 
